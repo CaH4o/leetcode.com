@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start1": "npx ts-node tasks/romanToInt.ts",
-    "start2": "npx ts-node tasks/intToRoman.ts"
+    "start2": "npx ts-node tasks/intToRoman.ts",
+    "start3": "npx ts-node tasks/twoSum.ts"
   },
   "author": "",
   "license": "ISC",
