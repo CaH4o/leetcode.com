@@ -19,12 +19,15 @@ Constraints:
 -231 <= x <= 231 - 1 */
 
 function reverse(x: number): number {
-    const s: string = x.toString().split("").reverse().join("");
-    const r:number = x < 0 ? parseInt(s) * - 1 : parseInt(s);
-    return r > 2 ** 31 || r < 2 ** 31 * -1 ? 0 : r;
+  const s: string = x.toString().split("").reverse().join("");
+  const r: number = x < 0 ? parseInt(s) * -1 : parseInt(s);
+  return r > 2 ** 31 || r < 2 ** 31 * -1 ? 0 : r;
 }
 
 console.log("123 === 321", reverse(123) === 321 ? "passed" : "NOT passed");
 console.log("-123 === -321", reverse(-123) === -321 ? "passed" : "NOT passed");
 console.log("120 === 21", reverse(120) === 21 ? "passed" : "NOT passed");
-console.log("1534236469 === 0", reverse(1534236469) === 0 ? "passed" : "NOT passed");
+console.log(
+  "1534236469 === 0",
+  reverse(1534236469) === 0 ? "passed" : "NOT passed"
+);
