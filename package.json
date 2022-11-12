@@ -8,7 +8,9 @@
     "start1": "npx ts-node tasks/romanToInt.ts",
     "start2": "npx ts-node tasks/intToRoman.ts",
     "start3": "npx ts-node tasks/twoSum.ts",
-    "start4": "npx ts-node tasks/FirstLetterToAppearTwice.ts"
+    "start4": "npx ts-node tasks/FirstLetterToAppearTwice.ts",
+    "start5": "npx ts-node tasks/reverseInteger.ts"
+
   },
   "author": "",
   "license": "ISC",
