@@ -45,10 +45,12 @@ function addTwoNumbers(
     const npv: number = v > 9 ? 1 : 0;
     const ck1: boolean = l1 ? Boolean(l1.next) : false;
     const ck2: boolean = l2 ? Boolean(l2.next) : false;
-    if (!ck1 && !ck2 && npv) {
-      return new ListNode(nv, new ListNode(npv, null));
-    } else if (!ck1 && !ck2) {
-      return new ListNode(nv, null);
+    if (!ck1 && !ck2) {
+        if(npv) {
+            return new ListNode(nv, new ListNode(npv, null));
+        } else {
+            return new ListNode(nv, null);
+        }
     } else {
       return new ListNode(
         nv,
