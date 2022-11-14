@@ -8,6 +8,7 @@
     "task1": "npx ts-node tasks/t1.TwoSum.ts",
     "task2": "npx ts-node tasks/t2.AddTwoNumbers.ts",
     "task3": "npx ts-node tasks/t3.LongestSubstringWithoutRepeatingCharacters.ts",
+    "task6": "npx ts-node tasks/t6.ZigzagConversion.ts",
     "task7": "npx ts-node tasks/t7.ReverseInteger.ts",
     "task12": "npx ts-node tasks/t12.IntegertoRoman.ts",
     "task13": "npx ts-node tasks/t13.RomanToInteger.ts",
