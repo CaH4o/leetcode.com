@@ -12,6 +12,7 @@
     "task7": "npx ts-node tasks/t7.ReverseInteger.ts",
     "task12": "npx ts-node tasks/t12.IntegertoRoman.ts",
     "task13": "npx ts-node tasks/t13.RomanToInteger.ts",
+    "task947": "npx ts-node tasks/t947.MostStonesRemovedWithSameRowOrColumn.ts",
     "task2351": "npx ts-node tasks/t2351.FirstLetterToAppearTwice.ts"
   },
   "author": "",
